@@ -1,0 +1,132 @@
+body {
+    background-color: #200800;
+    font-family: Poppins, 'Open+Sans';
+    color: whitesmoke;
+}
+
+
+#grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 200px;
+    }
+  
+  #areaA {
+ 
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 10px 1em;
+  }
+  
+ 
+.col-md-3 {
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 10px 1em;
+  width: 335px;
+  padding: 0px;
+}
+
+  /*navigation*/
+  .btn-group .button {
+    background-color: #CE862B; 
+    border: 1px solid #CE862B;
+    color: whitesmoke;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50px 50px 50px 50px;
+    display: block;
+  }
+.btn-group {
+    margin-left: 30px;
+}
+
+  .button {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .btn-group  {
+    border-bottom: none; /* Prevent double borders */    
+  }
+  
+  .btn-group .button:hover {
+    background-color: #864411;
+  }
+  
+ .btn-group a:link {
+    color: whitesmoke;
+  }
+  
+  /* visited link */
+  .btn-group a:visited {
+    color: whitesmoke;
+  }
+  
+   
+  /* selected link */
+  .btn-group a:active {
+    color: yellow;
+  }
+
+  #heading {
+      padding-top: 10px;
+      margin-bottom: 25px;
+      margin-left: 0px;
+      text-align: center;
+      color: whitesmoke;
+  }
+
+  #heading h1 {
+      font-size: 80px;
+      font-family: Poppins;
+      font-weight: 800;
+  }
+
+  #areaA p {
+      font-family: sans-serif;
+      font-size: 20px;
+      color: whitesmoke;
+      
+  }
+
+  @media (max-width:500px) {
+    img#top {
+      display: none;
+    }
+    img#bottom{
+      display: none;
+    }
+  }
+  #click {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: #CE862B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 5px #999;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 150px;
+    }
+
+    #click :hover {
+        background-color: #864411
+    }
+
+    .button:active #click  {
+    background-color: #864411;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }

@@ -1,8 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+        <head>
+            <!-- Required meta tags always come first -->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+            <!-- Template Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/5c18b1cbba.js" crossorigin="anonymous"></script>
+            
+            <!-- Bootstrap CSS -->
+            <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+            <!-- Additional CSS must be placed after Bootstrap CSS -->
+        
+            <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> 
+            <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+            <link rel="stylesheet" href="css/index.css" />
+            <title>Kennedy Phelps</title>
+
+
+        </head>
+
     <body>
-        <h1>This is header1</h1>
-        <p>This is a paragraph</p>
-        <p>This is a paragraph</p>
+            <div class="container-fluid">
+                <div class="row"> <!-- you probably forgot this? -->
+                        <div class="col-md-10">
+                              <div class="col-md-4"> <!--Images here-->
+                                
+                                    <img src="img/bg_layer2.png" class=" bottom-img img-responsive d-sm-none " alt="layer" id="bottom" />
+                                    <img src="img/hero.png" class="top-img img-responsive d-sm-none " alt="Kennedy Phelps" id="top"/>
+                                
+                              </div>
+                      
+                              <div class="col-md-6 intro"> <!--Introduction Here-->
+                                      <h2> Hi there!</h2>
+                                      <h1> I'm <span style="color: #CE862B;"> Kennedy Phelps</span></h1>
+                                      <p> I’m a multi-talented dancer. I excel in ballet, tap, and modern dance.  
+                                          I am passionate about sharing my expertise with children.</p>
+                                          
+                                         <a href="contactme.html"> <button class="btn" role="button" id="click">Contact Me</button></a>
+                              </div>
+
+                              
+                        </div> <!--end column 10-->
+                                    
+                                          <!--Navigation here-->
+                                  <div id="areaB">                       
+                                          <div class="btn-group w-100 d-flex" role="group"  style="margin-top: 150px; margin-left: 60px;">
+                                              <a href="index.html"><button class="button"><i class="fas fa-home fa-2x"> </i></a> </button>
+                                              <a href="aboutme.html"><button class="button"><i class="fas fa-user fa-2x"> </i></a> </button>
+                                              <a href="portfolio.html"><button class="button"><i class="fas fa-briefcase fa-2x"> </i></a> </button>
+                                              <a href="contactme.html"><button class="button"><i class="fas fa-comments fa-2x"></i></a> </button>
+                                          </div>
+                                  </div> <!--end areaB-->  
+                </div> <!--end row-->
+              </div> <!--end container--> 
+            
     </body>
-</html>
+
+          <!-- build:js js/main.js -->
+            <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+            <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="js/scripts.js"></script>
+          <!-- endbuild -->
+  </html>

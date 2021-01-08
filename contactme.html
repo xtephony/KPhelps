@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+            <!-- Required meta tags always come first -->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+            <!-- Template Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/5c18b1cbba.js" crossorigin="anonymous"></script>
+
+            <!-- Bootstrap CSS -->
+            <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+            <!-- Additional CSS must be placed after Bootstrap CSS -->
+        
+            <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> 
+            <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+            <link rel="stylesheet" href="css/template.css" />
+
+            <style>
+                
+                .contact-form {
+                    padding: 50px;
+                    margin: 1px 0;
+                    font-size: 20px;                    
+                }
+                .contact-form h1 {
+                    text-transform: uppercase;
+                    margin: 0 0 15px;
+                }
+                .contact-form .form-control, .contact-form .btn  {
+                    min-height: 50px;
+                    border-radius: 25px;                 
+                }
+                .contact-form .btn-primary {
+                    min-width: 150px;
+                    background: #CE862B;
+                    border: none;
+                }
+                .contact-form .btn-primary:hover {
+                    background: #864411; 
+                }
+                .contact-form label {
+                    opacity: 0.9;
+                }
+                .contact-form textarea {
+                    resize: vertical;                  
+                }
+                .hint-text {
+                    font-size: 15px;
+                    padding-bottom: 15px;
+                    opacity: 0.8;
+                }
+                .bs-example {
+                    margin: 20px;
+                }
+                .form-control{
+                    background-color: transparent;
+                    color: whitesmoke;
+                    font-size: 18px;
+                }
+               
+                </style>
+            
+            <title>Kennedy Phelps</title>
+        </head>
+            <body>
+               <!--HEADING TOP-->
+               <div class="container-fluid">
+                <div class="row" id="heading">
+                    <div class="col-md-12">
+                    <h1>Get In<span style="color: #CE862B;" > Touch</span></h1> 
+                    </div>   
+                </div>
+            </div>
+
+
+
+                <!--CONTENT SECTION - GRID START-->
+                <div class="container-fluid">
+                    <div class="row" style="display: flex; flex-wrap: wrap">
+                        <div id="grid">
+                            <div id="areaA"> 
+                                <div class="col-10 col-md-8 contact-form" style="margin-left: 300px;"><!--LEFT SIDE - IN GRID-->
+                                    
+                                    <form action="/examples/actions/confirmation.php" method="post">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="inputFirstName">First Name</label>
+                                                    <input type="text" class="form-control" id="inputFirstName" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="inputLastName">Last Name</label>
+                                                    <input type="text" class="form-control" id="inputLastName" required>
+                                                </div>
+                                            </div>
+                                        </div>            
+                                        <div class="form-group">
+                                            <label for="inputEmail">Email Address</label>
+                                            <input type="email" class="form-control" id="inputEmail" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputMessage">Message</label>
+                                            <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                                        </div>
+                                        <input type="submit" class="btn btn-primary" value="Submit" style="font-size: 20px;">
+                                    </form>
+
+                                </div>
+                                
+                            </div>
+                            
+                            <!--NAVIGATION SECTION IN GRID-->
+                                    <div id="areaB">
+                                       
+                                <div class="btn-group w-100 d-flex" role="group">
+                                    <a href="index.html"><button class="button"><i class="fas fa-home fa-2x"> </i></a> </button>
+                                    <a href="aboutme.html"><button class="button"><i class="fas fa-user fa-2x"> </i></a> </button>
+                                    <a href="portfolio.html"><button class="button"><i class="fas fa-briefcase fa-2x"> </i></a> </button>
+                                    <a href="contactme.html"><button class="button"><i class="fas fa-comments fa-2x"></i></a> </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </body>
+                <!-- build:js js/main.js -->
+                   
+                    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+                    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+                    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+                    <script src="js/scripts.js"></script>
+                <!-- endbuild -->  
+</html>               

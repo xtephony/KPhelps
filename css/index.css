@@ -1,0 +1,156 @@
+@media (max-width:629px) {
+  img#top {
+    display: none;
+  }
+  img#bottom{
+    display: none;
+  }
+}
+
+
+
+
+html {
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: #200800;
+    height: 100%;
+    width: 100%;
+  }
+ .container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .row{
+    padding: 0 15px;
+    margin: 0 -15px;
+  }
+  
+  .col-10 {
+      width: 100%;
+  }
+
+  .intro {
+      margin-left: 500px;
+      margin-right: 200px;
+      margin-top: 150px;
+      width: 700px;
+  }
+
+  .col-md-2  {
+      width: 100%;
+      margin-left: 1200px;
+  }
+
+  .bottom-img
+    {
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      height: 750px;
+      z-index: 1;
+    }
+    .top-img
+    {
+      position:absolute;
+      top: 75px;
+      left: 25px;
+      border-radius: 25px;
+      width: 500px;
+      height: 650px;
+      z-index: 2;
+    }
+    h1 {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+
+   /*navigation*/
+  .btn-group .button {
+    background-color: #CE862B; 
+    border: 1px solid #CE862B;
+    color: whitesmoke;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50px 50px 50px 50px;
+    display: block;
+  }
+.btn-group {
+    margin-left: 30px;
+}
+
+  .button {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .btn-group  {
+    border-bottom: none; /* Prevent double borders */
+   
+    
+  }
+  
+  .btn-group .button:hover {
+    background-color: #864411;
+  }
+  .btn-group a:link {
+    color: whitesmoke;
+  }
+  
+  /* visited link */
+  .btn-group a:visited {
+    color: whitesmoke;
+  }
+  
+   
+  /* selected link */
+  .btn-group a:active {
+    color: yellow;
+  }
+
+  #click {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: #CE862B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 5px #999;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 150px;
+    }
+
+    #click :hover {
+        background-color: #864411
+    }
+
+    .button:active #click  {
+    background-color: #864411;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }
